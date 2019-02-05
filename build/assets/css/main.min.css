@@ -202,9 +202,6 @@ body {
   margin: 0 auto;
   padding: 0 3rem; }
 
-section {
-  display: -webkit-box; }
-
 ::selection {
   background: #e0e0e0; }
 
@@ -285,6 +282,7 @@ hr {
   height: 0; }
 
 header {
+  border-bottom: 18px solid black;
   background: url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
@@ -330,9 +328,16 @@ header {
     header::after {
       height: 500px; }
     header .hero .logo {
-      margin-top: 15vh;
+      margin-top: 12vh;
       width: 60%; } }
 
 @media screen and (max-width: 1200px) {
   header .hero .logo {
     width: 60%; } }
+
+.offer {
+  padding: 6vw 0 6vw;
+  letter-spacing: .5px;
+  text-align: justify; }
+  .offer img {
+    box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.75); }
