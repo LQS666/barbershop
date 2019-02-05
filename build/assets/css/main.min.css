@@ -341,3 +341,62 @@ header {
   text-align: justify; }
   .offer img {
     box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.75); }
+
+.parallax-container {
+  border-top: 5px solid #b71c1c;
+  border-bottom: 5px solid #1e88e5; }
+
+.about {
+  padding: 4vw 0 4vw; }
+  .about .tabs {
+    margin-bottom: 4vw; }
+    .about .tabs .indicator {
+      background: #c62828; }
+    .about .tabs .tab a:focus {
+      background: transparent; }
+      .about .tabs .tab a:focus.active {
+        background: transparent; }
+  .about p {
+    letter-spacing: 1px; }
+  .about img {
+    box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.75); }
+
+.contact {
+  padding-top: 120px;
+  padding-bottom: 40px; }
+  .contact h2 {
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 26px; }
+  .contact .kontakt-box {
+    padding: 10px 0 60px 0;
+    display: grid;
+    grid-template-columns: repeat(1, auto); }
+    .contact .kontakt-box .kontakt-item {
+      display: flex;
+      padding: 10px;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      font-weight: 500;
+      font-size: 13px; }
+      .contact .kontakt-box .kontakt-item .ex {
+        font-weight: 300;
+        letter-spacing: 0.13em; }
+      .contact .kontakt-box .kontakt-item i {
+        display: block;
+        margin: 0 auto;
+        width: 30px;
+        height: 30px;
+        padding-bottom: 40px;
+        font-size: 17px; }
+
+footer {
+  padding: 10vh; }
+  footer .footer-content {
+    text-align: center; }
+    footer .footer-content .logo-footer {
+      width: 16%;
+      padding-bottom: 14px;
+      margin: auto; }
